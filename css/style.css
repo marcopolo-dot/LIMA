@@ -1,3 +1,4 @@
+/*Reset*/
 * {
     margin: 0; /*Remova as margens padrão de todos os elementos*/
     padding: 0; /*Remove o preenchimento padrão de todos os elementos */
@@ -29,7 +30,8 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 1)
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*Aplica uma transição suave para o efeito de transição*/
 }
 
 .card:hover{
@@ -37,4 +39,30 @@ body {
     mouse sobre ele, criando um efeito de elevação*/
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15); /*Aumenta a intensidade da sobra ao 
     passar o mouse sobre o cartão*/
+}
+
+.cardo.h2{
+    color: #333; /*Define a cor do título do cartão como cinza escuro*/;
+    margin-bottom: 10px; /*adiciona uma margem inferior de 10px ao título*/
+}
+
+.card p{
+    color: #667; /*Define a cor do texto dentro do cartão como cinza médio*/
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer; /* O cursor do mouse vira uma " mãozinha" com o dedo indicador esticado (Firefox)*/
+    transition: background-color 0.3 ease; /* aplica uma transição suave de 0.3s à cor de fundo do botão*/
+}
+
+.btn:hover{
+    background-color: #0056b3;
 }

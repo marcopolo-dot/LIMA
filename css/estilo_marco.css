@@ -1,0 +1,8 @@
+body{
+    background-image: url('./R.jpg');
+    background-color:bisque;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
