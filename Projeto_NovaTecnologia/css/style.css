@@ -48,12 +48,12 @@ header nav ul li a{
     display: flex;
 }
 .logo img{
-    width: 20%;
+    width: 40%;
     border-radius: 70%
 }
 .nome{
     width: 70%;
-    margin-left: 2px;
+    margin-left: 20%;
 }
 .nome h1{
     font-family: "Peppins", sans-serif;
@@ -72,7 +72,7 @@ header nav ul li a{
 .carousel-container{
     display: flex;
     align-items: center;
-    transition: trasnform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 .carousel-item{
     min-width: 100%;
@@ -140,6 +140,9 @@ footer{
     padding: 10px;
     margin-top: 50px;
 
+}
+footer a{
+    color:white;
 }
 
 /*Estilização dos elementos da página sobre */

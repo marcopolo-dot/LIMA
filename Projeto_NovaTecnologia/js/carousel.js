@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", listener = () => {
         changeSlide();
     }
     const prevSlide = () => {
-        currentIndex = (currentIndex - 1 );
+        currentIndex = (currentIndex - 1 + totalItems) % totalItems;;
         changeSlide();
     }
     nextButton.addEventListener("click", nextSlide);
